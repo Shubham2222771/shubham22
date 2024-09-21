@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-public class Jeevansathi_registration extends Dynamic_code3 {
+public class Jeevansathi_registration extends Dynamic_code {
 
 	public static void main(String[] args) {
 		

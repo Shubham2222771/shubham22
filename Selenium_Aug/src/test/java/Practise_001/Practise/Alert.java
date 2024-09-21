@@ -3,7 +3,7 @@ package Practise_001.Practise;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class Alert extends Dynamic_code3{
+public class Alert extends Dynamic_code{
 
 	public static void main(String[] args) throws Throwable {
 
@@ -16,6 +16,7 @@ public class Alert extends Dynamic_code3{
 		
 		Thread.sleep(2000);
 		simple_alert.accept();
+		
 		// confirmation alert
 		driver.findElement(By.xpath("(//a[@class=\"analystic\"])[2]")).click();
 
